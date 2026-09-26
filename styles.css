@@ -8,3 +8,18 @@
 @media(max-width:360px){.wrap{width:calc(100% - 30px)}.hero h1{font-size:8vw;letter-spacing:-1.4px}.hero-actions{gap:15px}.hero-actions .button{padding:12px;gap:11px}.wordmark-sub{font-size:5px}.header nav{gap:10px}.filter{padding:8px 10px;gap:7px}.contact-section{padding:27px 20px}.contact-section h2{font-size:25px}.agent-code{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{.header nav,.nav-contact,.filters,.hero-actions,.engineering-visual,.project-art,.automation-art,.agent-card,.contact-circle,.contact-links,.footer{display:none}.wrap{width:100%;max-width:none}.hero,.section,.contact-section{padding:20px 0}.hero,.about-section,.project-wide,.current-role{display:block}.project-grid{display:block}.project{break-inside:avoid;margin-bottom:15px}.project-copy{padding:15px}.hero h1{font-size:35px}.section-heading h2,h2{font-size:26px}.contact-section,.role-sidebar,.experience-section{background:white;color:black}.contact-section{margin:0}.contact-section h2{font-size:28px}.role-work{padding:15px}.role-sidebar{padding:15px;border:0}.proof-strip{padding:15px 0}body{background:white;color:black}.project[hidden]{display:block}}
+
+/* ShopJev project artwork */
+.shopjev-art{color:#e7efff;background:#172943;background-image:radial-gradient(#7ca4d422 1px,transparent 1px),linear-gradient(145deg,#203e68,#142238 70%);background-size:15px 15px,auto}
+.shopjev-search{position:relative;margin:10px auto 0;padding:13px 15px;width:76%;max-width:380px;background:#f5f7fb;border:1px solid #cad6e5;border-radius:8px;color:#20324d;box-shadow:0 12px 30px #07132666}
+.shopjev-search-label{font:7px var(--mono);letter-spacing:1px;color:#687b96}
+.shopjev-query{display:flex;align-items:center;justify-content:space-between;margin-top:7px;padding:9px 11px;border:1px solid #cbd6e4;border-radius:4px;background:#fff;font-size:11px;color:#34445e}
+.shopjev-query>span{color:#3479cc;font-size:19px;line-height:1}
+.shopjev-chips{display:flex;gap:6px;margin-top:9px;flex-wrap:wrap}
+.shopjev-chips>span{padding:4px 7px;border:1px solid #d1dce9;border-radius:99px;color:#64748b;font-size:7px}
+.shopjev-products{position:absolute;right:9%;bottom:39px;display:grid;gap:7px;width:57%;max-width:270px;transform:rotate(-3deg)}
+.shopjev-products>div{display:flex;align-items:center;gap:9px;padding:7px 10px;border:1px solid #63758f;border-radius:6px;background:#243953;color:#e8effa;font-size:8px;box-shadow:0 6px 16px #0b172755}
+.shopjev-products i{width:25px;height:25px;border-radius:4px;background:linear-gradient(145deg,#e7d6bc,#93a4b7)}
+.shopjev-products>div:nth-child(2) i{background:linear-gradient(145deg,#b9c6d8,#6b809d)}
+.shopjev-products>div:nth-child(3) i{background:linear-gradient(145deg,#d6c0a5,#967d69)}
+.shopjev-products b{margin-left:auto;color:#b7d6ff;font-size:12px;font-weight:400}
